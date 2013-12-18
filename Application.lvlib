@@ -5,7 +5,8 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Configuration" Type="Folder">
-		<Item Name="ApplicationTiming.ctl" Type="VI" URL="/&lt;userlib&gt;/Common/Component/Application/Configuration/ApplicationTiming.ctl"/>
-		<Item Name="ApplicationVariables.lvlib" Type="Library" URL="/&lt;userlib&gt;/Common/Component/Application/Variables/ApplicationVariables.lvlib"/>
+		<Item Name="Application.ctl" Type="VI" URL="/&lt;userlib&gt;/Common/Component/Application/Configuration/Application.ctl"/>
 	</Item>
+	<Item Name="Application.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/Component/Application/Application/Application.lvclass"/>
+	<Item Name="ApplicationVariables.lvlib" Type="Library" URL="/&lt;userlib&gt;/Common/Component/Application/Variables/ApplicationVariables.lvlib"/>
 </Library>
