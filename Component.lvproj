@@ -35,10 +35,10 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="MyComputer" Type="Folder">
 			<Item Name="ComponentDataSVs" Type="Folder">
-				<Item Name="ComponentDataPubDataSV.lvlib" Type="Library" URL="/&lt;userlib&gt;/Common/Component/Application/MyComputer/ComponentDataSVs/ComponentDataPubDataSV.lvlib"/>
-				<Item Name="ComponentDataSubDataSV.lvlib" Type="Library" URL="/&lt;userlib&gt;/Common/Component/Application/MyComputer/ComponentDataSVs/ComponentDataSubDataSV.lvlib"/>
+				<Item Name="ComponentDataPubDataSV.lvlib" Type="Library" URL="/&lt;userlib&gt;/Common/Component/common_application/MyComputer/ComponentDataSVs/ComponentDataPubDataSV.lvlib"/>
+				<Item Name="ComponentDataSubDataSV.lvlib" Type="Library" URL="/&lt;userlib&gt;/Common/Component/common_application/MyComputer/ComponentDataSVs/ComponentDataSubDataSV.lvlib"/>
 			</Item>
-			<Item Name="ComponentConfiguration.lvlib" Type="Library" URL="/&lt;userlib&gt;/Common/Component/Application/MyComputer/ComponentConfiguration.lvlib"/>
+			<Item Name="ComponentConfiguration.lvlib" Type="Library" URL="/&lt;userlib&gt;/Common/Component/common_application/MyComputer/ComponentConfiguration.lvlib"/>
 		</Item>
 		<Item Name="SystemVIs" Type="Folder">
 			<Item Name="NI_FunctionBlock Libraries.lvlib" Type="Library" URL="/&lt;vilib&gt;/functionblocks/NI_FunctionBlock Libraries.lvlib"/>
@@ -109,8 +109,8 @@
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Property Name="TargetOSID" Type="Str">VxWorks-PPC603</Property>
 		<Item Name="RT" Type="Folder">
-			<Item Name="ComponentData.lvlib" Type="Library" URL="/&lt;userlib&gt;/Common/Component/Application/RT/ComponentData.lvlib"/>
-			<Item Name="ComponentConfiguration.lvlib" Type="Library" URL="/&lt;userlib&gt;/Common/Component/Application/MyComputer/ComponentConfiguration.lvlib"/>
+			<Item Name="ComponentData.lvlib" Type="Library" URL="/&lt;userlib&gt;/Common/Component/common_application/RT/ComponentData.lvlib"/>
+			<Item Name="ComponentConfiguration.lvlib" Type="Library" URL="/&lt;userlib&gt;/Common/Component/common_application/MyComputer/ComponentConfiguration.lvlib"/>
 		</Item>
 		<Item Name="SystemVIs" Type="Folder">
 			<Item Name="NI_FunctionBlock Libraries.lvlib" Type="Library" URL="/&lt;vilib&gt;/functionblocks/NI_FunctionBlock Libraries.lvlib"/>
@@ -1268,7 +1268,7 @@
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Read From XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File.vi"/>
 				<Item Name="Read From XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File(array).vi"/>
 				<Item Name="ParseXMLFragments.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/ParseXMLFragments.vi"/>
@@ -1276,20 +1276,27 @@
 				<Item Name="FindElement.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindElement.vi"/>
 				<Item Name="FindEmptyElement.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindEmptyElement.vi"/>
 				<Item Name="FindMatchingCloseTag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindMatchingCloseTag.vi"/>
-				<Item Name="FindElementStartByName.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindElementStartByName.vi"/>
 				<Item Name="FindCloseTagByName.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindCloseTagByName.vi"/>
+				<Item Name="FindElementStartByName.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindElementStartByName.vi"/>
 				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
+				<Item Name="compatCalcOffset.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatCalcOffset.vi"/>
 				<Item Name="compatFileDialog.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatFileDialog.vi"/>
 				<Item Name="compatOpenFileOperation.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOpenFileOperation.vi"/>
-				<Item Name="compatCalcOffset.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatCalcOffset.vi"/>
 				<Item Name="Read From XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File(string).vi"/>
-				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 			</Item>
+			<Item Name="niFpgaWaitOnOcc.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaWaitOnOcc.vi"/>
+			<Item Name="niLvFpga_WaitOnIrq_cRIO-9074.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/cRIO-9074/niLvFpga_WaitOnIrq_cRIO-9074.vi"/>
+			<Item Name="StockFPGA_InlinedAdjustHostInterfaceError.vi" Type="VI" URL="../../../../../Targets/NI/FPGA/StockFPGA_IntfPrivate/ScriptTemplates/StockFPGA_InlinedAdjustHostInterfaceError.vi"/>
+			<Item Name="niFpgaHostInterfaceSession.ctl" Type="VI" URL="../../../../../Targets/NI/FPGA/StockFPGA_IntfPrivate/ScriptTemplates/niFpgaHostInterfaceSession.ctl"/>
+			<Item Name="StockFPGA_PlugInOptionalWaitOnIrq.vi" Type="VI" URL="../../../../../Targets/NI/FPGA/StockFPGA_IntfPrivate/ScriptTemplates/StockFPGA_PlugInOptionalWaitOnIrq.vi"/>
+			<Item Name="StockFPGA_InlinedWaitFor1OrMoreIRQs.vi" Type="VI" URL="../../../../../Targets/NI/FPGA/StockFPGA_IntfPrivate/ScriptTemplates/StockFPGA_InlinedWaitFor1OrMoreIRQs.vi"/>
+			<Item Name="StockFPGA_InlinedMethodWaitForSingleIRQ.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/nirviMethod/StockFPGA_InlinedMethodWaitForSingleIRQ.vi"/>
+			<Item Name="niLvFpga_AcknowledgeIrq_cRIO-9074.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/cRIO-9074/niLvFpga_AcknowledgeIrq_cRIO-9074.vi"/>
 			<Item Name="niLvFpga_Close_cRIO-9074.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/cRIO-9074/niLvFpga_Close_cRIO-9074.vi"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="niFpgaWaitOnOcc.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaWaitOnOcc.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
