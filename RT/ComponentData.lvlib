@@ -5,54 +5,54 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="ApplicationHandler" Type="Folder">
-		<Item Name="ApplicationHandler.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/Component/common_application/RT/ComponentData/ApplicationHandler/ApplicationHandler.lvclass"/>
+		<Item Name="ApplicationHandler.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/Component/Application/RT/ComponentData/ApplicationHandler/ApplicationHandler.lvclass"/>
 	</Item>
 	<Item Name="ComponentData" Type="Folder">
-		<Item Name="ComponentData.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/Component/common_application/RT/ComponentData/ComponentData/ComponentData.lvclass"/>
-		<Item Name="fpgaVIRefCRIO9074.ctl" Type="VI" URL="/&lt;userlib&gt;/Common/Component/common_application/RT/ComponentData/ComponentData/fpgaVIRefCRIO9074.ctl"/>
+		<Item Name="ComponentData.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/Component/Application/RT/ComponentData/ComponentData/ComponentData.lvclass"/>
+		<Item Name="fpgaVIRefCRIO9074.ctl" Type="VI" URL="/&lt;userlib&gt;/Common/Component/Application/RT/ComponentData/ComponentData/fpgaVIRefCRIO9074.ctl"/>
 	</Item>
 	<Item Name="ConfigurationHandler" Type="Folder">
 		<Item Name="IRQConfig" Type="Folder">
-			<Item Name="IRQConfig.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/Component/common_application/RT/ComponentData/ConfigurationHandler/IRQConfig/IRQConfig.lvclass"/>
+			<Item Name="IRQConfig.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/Component/Application/RT/ComponentData/ConfigurationHandler/IRQConfig/IRQConfig.lvclass"/>
 		</Item>
 		<Item Name="LoopConfig" Type="Folder">
-			<Item Name="LoopConfig.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/Component/common_application/RT/ComponentData/ConfigurationHandler/LoopConfig/LoopConfig.lvclass"/>
+			<Item Name="LoopConfig.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/Component/Application/RT/ComponentData/ConfigurationHandler/LoopConfig/LoopConfig.lvclass"/>
 		</Item>
 		<Item Name="LoopInternalConfig" Type="Folder">
-			<Item Name="LoopInternalConfig.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/Component/common_application/RT/ComponentData/ConfigurationHandler/LoopInternalConfig/LoopInternalConfig.lvclass"/>
+			<Item Name="LoopInternalConfig.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/Component/Application/RT/ComponentData/ConfigurationHandler/LoopInternalConfig/LoopInternalConfig.lvclass"/>
 		</Item>
 		<Item Name="RIOConfig" Type="Folder">
-			<Item Name="RIOConfig.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/Component/common_application/RT/ComponentData/ConfigurationHandler/RIOConfig/RIOConfig.lvclass"/>
+			<Item Name="RIOConfig.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/Component/Application/RT/ComponentData/ConfigurationHandler/RIOConfig/RIOConfig.lvclass"/>
 		</Item>
 	</Item>
 	<Item Name="IRQHandler" Type="Folder">
-		<Item Name="IRQHandler.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/Component/common_application/RT/ComponentData/IRQHandler/IRQHandler.lvclass"/>
+		<Item Name="IRQHandler.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/Component/Application/RT/ComponentData/IRQHandler/IRQHandler.lvclass"/>
 	</Item>
 	<Item Name="LoopTimer" Type="Folder">
-		<Item Name="LoopTimer.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/Component/common_application/RT/ComponentData/LoopTimer/LoopTimer.lvclass"/>
+		<Item Name="LoopTimer.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/Component/Application/RT/ComponentData/LoopTimer/LoopTimer.lvclass"/>
 	</Item>
 	<Item Name="RIOHandler" Type="Folder">
-		<Item Name="RIOHandler.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/Component/common_application/RT/ComponentData/RIOHandler/RIOHandler.lvclass"/>
+		<Item Name="RIOHandler.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/Component/Application/RT/ComponentData/RIOHandler/RIOHandler.lvclass"/>
 	</Item>
 	<Item Name="ComponentState" Type="Folder">
 		<Item Name="ComponentState" Type="Folder">
-			<Item Name="ComponentState.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/Component/common_application/RT/ComponentData/ComponentState/ComponentState/ComponentState.lvclass"/>
+			<Item Name="ComponentState.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/Component/Application/RT/ComponentData/ComponentState/ComponentState/ComponentState.lvclass"/>
 		</Item>
 		<Item Name="DisabledState" Type="Folder">
-			<Item Name="DisabledState.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/Component/common_application/RT/ComponentData/ComponentState/DisabledState/DisabledState.lvclass"/>
+			<Item Name="DisabledState.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/Component/Application/RT/ComponentData/ComponentState/DisabledState/DisabledState.lvclass"/>
 		</Item>
 		<Item Name="EnabledState" Type="Folder">
-			<Item Name="EnabledState.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/Component/common_application/RT/ComponentData/ComponentState/EnabledState/EnabledState.lvclass"/>
+			<Item Name="EnabledState.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/Component/Application/RT/ComponentData/ComponentState/EnabledState/EnabledState.lvclass"/>
 		</Item>
 		<Item Name="FaultState" Type="Folder">
-			<Item Name="FaultState.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/Component/common_application/RT/ComponentData/ComponentState/FaultState/FaultState.lvclass"/>
+			<Item Name="FaultState.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/Component/Application/RT/ComponentData/ComponentState/FaultState/FaultState.lvclass"/>
 		</Item>
 		<Item Name="OffState" Type="Folder">
-			<Item Name="OffState.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/Component/common_application/RT/ComponentData/ComponentState/OffState/OffState.lvclass"/>
+			<Item Name="OffState.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/Component/Application/RT/ComponentData/ComponentState/OffState/OffState.lvclass"/>
 		</Item>
 		<Item Name="StandbyState" Type="Folder">
-			<Item Name="StandbyState.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/Component/common_application/RT/ComponentData/ComponentState/StandbyState/StandbyState.lvclass"/>
+			<Item Name="StandbyState.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/Component/Application/RT/ComponentData/ComponentState/StandbyState/StandbyState.lvclass"/>
 		</Item>
 	</Item>
-	<Item Name="componentStateValues.ctl" Type="VI" URL="/&lt;userlib&gt;/Common/Component/common_application/RT/ComponentData/componentStateValues.ctl"/>
+	<Item Name="componentStateValues.ctl" Type="VI" URL="/&lt;userlib&gt;/Common/Component/Application/RT/ComponentData/componentStateValues.ctl"/>
 </Library>

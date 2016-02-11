@@ -5,9 +5,9 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="ComponentConfigurationTypedefs" Type="Folder">
-		<Item Name="irqConfig.ctl" Type="VI" URL="/&lt;userlib&gt;/Common/Component/common_application/MyComputer/ComponentConfiguration/ComponentConfigurationTypedefs/irqConfig.ctl"/>
-		<Item Name="loopConfig.ctl" Type="VI" URL="/&lt;userlib&gt;/Common/Component/common_application/MyComputer/ComponentConfiguration/ComponentConfigurationTypedefs/loopConfig.ctl"/>
-		<Item Name="rioConfig.ctl" Type="VI" URL="/&lt;userlib&gt;/Common/Component/common_application/MyComputer/ComponentConfiguration/ComponentConfigurationTypedefs/rioConfig.ctl"/>
-		<Item Name="loopInternalConfig.ctl" Type="VI" URL="/&lt;userlib&gt;/Common/Component/common_application/MyComputer/ComponentConfiguration/ComponentConfigurationTypedefs/loopInternalConfig.ctl"/>
+		<Item Name="irqConfig.ctl" Type="VI" URL="/&lt;userlib&gt;/Common/Component/Application/MyComputer/ComponentConfiguration/ComponentConfigurationTypedefs/irqConfig.ctl"/>
+		<Item Name="loopConfig.ctl" Type="VI" URL="/&lt;userlib&gt;/Common/Component/Application/MyComputer/ComponentConfiguration/ComponentConfigurationTypedefs/loopConfig.ctl"/>
+		<Item Name="rioConfig.ctl" Type="VI" URL="/&lt;userlib&gt;/Common/Component/Application/MyComputer/ComponentConfiguration/ComponentConfigurationTypedefs/rioConfig.ctl"/>
+		<Item Name="loopInternalConfig.ctl" Type="VI" URL="/&lt;userlib&gt;/Common/Component/Application/MyComputer/ComponentConfiguration/ComponentConfigurationTypedefs/loopInternalConfig.ctl"/>
 	</Item>
 </Library>
